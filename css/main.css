@@ -1,0 +1,141 @@
+html, body
+	{
+		height: 100%;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #334467;
+		font-family: 'Kavivanar', cursive;
+		font-size: 12pt;
+		color: #E5EEFF;
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #404040;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	strong
+	{
+	}
+
+	a
+	{
+		color: #16A085;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+
+	.container
+	{
+		margin: 0px auto;
+		width: 1200px;
+	}
+
+
+/*********************************/
+/* Header                       */
+
+#header-wrapper
+{
+  overflow: hidden;
+  padding: 6em 0em 2em 0em;
+}
+
+#header
+{
+  font-family: 'Passion One', cursive;
+  text-align: center;
+
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+
+	.title h2
+	{
+		font-size: 2.8em;
+		color: #FFF;
+	}
+
+	.title .byline
+	{
+		font-size: 1.1em;
+		color: rgba(255,255,255,.5);
+	}
+
+  /*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+	}
+
+	#menu ul
+	{
+		display: inline-block;
+		padding: 0em 2em;
+		text-align: center;
+	}
+
+	#menu li
+	{
+		display: inline-block;
+	}
+
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		padding: 1.3em 1.5em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+	}
+
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #3E5A99;
+	}
+
+	#menu .current_page_item a
+	{
+		color: #FFF;
+	}
+
+  
