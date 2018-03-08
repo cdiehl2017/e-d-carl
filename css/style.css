@@ -8,7 +8,7 @@ body
   margin: 0px;
   padding: 0px;
   background: #334467;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Kavivanar', cursive;
   font-size: 12pt;
   color: #E5EEFF;
 }
@@ -57,6 +57,8 @@ a:hover
   margin: 0px auto;
   width: 1200px;
 }
+
+
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -379,7 +381,6 @@ ul.contact li a:before
   color: rgba(255,255,255,0.4);
 }
 
-
 /*********************************************************************************/
 /* Portfolio                                                                     */
 /*********************************************************************************/
@@ -414,20 +415,25 @@ ul.contact li a:before
 .column1,
 .column2,
 .column3,
-.column4
+.column4,
+.column5,
+.column6
 {
   width: 282px;
 }
 
 .column1,
 .column2,
-.column3
+.column3,
+.column4,
+.column5,
+.column6
 {
   float: left;
   margin-right: 24px;
 }
 
-.column4
+.column6
 {
   float: right;
 }
